@@ -1,0 +1,17 @@
+{
+    "name": "TemplateStore",
+    "description": "A template skellycord plugin store.",
+    "author": "YOUR_DISCORD_ID",
+    "scripts": {
+        "build": "node buildtool/index.mjs",
+        "serve": "esbuild --servedir=dist",
+        "test": "npm run build && npm run serve",
+        "bun:build": "bun buildtool/index.mjs",
+        "bun:serve": "esbuild --servedir=dist",
+        "bun:test": "bun bun:build && bun bun:serve"
+    },
+    "dependencies": {
+        "esbuild": "^0.20.1",
+        "skellycord-types": "^1.0.15"
+    }
+}
