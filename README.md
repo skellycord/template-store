@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-# skellycord-template-store
-Template skellycord plugin store
-=======
 # Skellycord Template Store
 This repository contains the minimum code to set up a plugin store for [Skellycord](https://github.com/skullbite/skellycord)
 
@@ -38,4 +34,3 @@ Assuming you're coding in an environment with intellisense, types for the Skelly
 
 ### Documentation
 Coming at some point...
->>>>>>> Stashed changes
