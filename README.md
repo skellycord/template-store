@@ -27,7 +27,7 @@ export default {
 6. Maybe change the contents of this readme.
 
 ### Debugging 
-If you wish to test your plugin store, without distributing it, you can run either `npm run test` or `bun bun:test`. These commands compile, and serve your store locally.
+If you wish to test your plugin store, without distributing it, you can run either `npm run dev` or `bun bun:dev`. These commands compile, and serve your store locally.
 
 ### Types
 Assuming you're coding in an environment with intellisense, types for the Skellycord API are availible at either `window.skellycord`, or the module `@skellycord`.
